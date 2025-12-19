@@ -34,6 +34,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
         Main0=Window:AddTab({ Title="Thông Tin" }),
         Main1=Window:AddTab({ Title="Script Blox Fruit" }),
+}
     Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "MONSTER X",
