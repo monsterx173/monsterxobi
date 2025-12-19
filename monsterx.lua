@@ -23,7 +23,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "MONTER X",
+    Title = "MONSTER X",
     SubTitle = "@obi74z",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
@@ -52,7 +52,7 @@ local Tabs = {
 })
    
     Tabs.Main1:AddButton({
-    Title="Redz Hub",
+    Title="ĐÉO BIẾT SCRIPT J THẤY NÊN SHARE",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -60,6 +60,6 @@ local Tabs = {
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("http://raw.githubusercontent.com/trungdao2k4/redz/refs/heads/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
   end
 })
