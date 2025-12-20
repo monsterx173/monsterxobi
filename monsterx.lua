@@ -34,6 +34,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
         Main0=Window:AddTab({ Title="Thông Tin" }),
         Main1=Window:AddTab({ Title="Script Blox Fruit" }),
+	    Main2=Window:AddTab({ Title="Script 99 Đêm Trong Rừng" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
@@ -63,3 +64,27 @@ local Tabs = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
   end
 })
+
+
+    Tabs.Main2:AddButton({
+    Title="CÀY CANDY",
+    Description="",
+    Callback=function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/CandyFarm'))()
+  end
+})
+
+
+
+
+
+
+
+
+
+
