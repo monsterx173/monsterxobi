@@ -53,7 +53,7 @@ local Tabs = {
 })
    
     Tabs.Main1:AddButton({
-    Title="ĐÉO BIẾT SCRIPT J THẤY NÊN SHARE",
+    Title="Hinishi Hub",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -61,7 +61,13 @@ local Tabs = {
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+getgenv().team = "Marines" -- Marines or Pirates
+
+_G.Translate = "Vietnamese"
+
+-- Thai or Russian or Portuguese or Vietnamese
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Hinishi/Hinishi-Hub/refs/heads/main/Freemium.lua"))()
   end
 })
 
