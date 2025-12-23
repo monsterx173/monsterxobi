@@ -53,7 +53,7 @@ local Tabs = {
 })
    
     Tabs.Main1:AddButton({
-    Title="Hinishi Hub",
+    Title="BlueXHub",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -61,14 +61,7 @@ local Tabs = {
   Translator = true; -- true/false
 }
 
-getgenv().team = "Marines" -- Marines or Pirates
-
-_G.Translate = "Vietnamese"
-
--- Thai or Russian or Portuguese or Vietnamese
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Hinishi/Hinishi-Hub/refs/heads/main/Freemium.lua"))()
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
 })
 
 
