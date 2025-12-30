@@ -5,7 +5,7 @@ end
 if setfpscap then
     setfpscap(1000000)
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "MONSTER X HUB - MOD LẠI MENU",
+        Title = "MONSTER X HUB",
         Text = "FPS Unlocked!",
         Duration = 5,
         Button1 = "Okay"
