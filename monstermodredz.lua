@@ -23,7 +23,7 @@ end
 
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-    Title = "MONSTER X HUB - MOD LẠI MENU",
+    Title = "MONSTER X HUB [PREMIUM]",
     Icon = "rbxassetid://133786721407992",
     Author = "SHOP: OBI.SITE | Blox Fruit",
     Folder = "MONSTER X Hub_BF",
@@ -49,7 +49,7 @@ Window:EditOpenButton({
 });
 local Tabs = {
     InfoTab = Window:Tab({
-        Title = "Information",
+        Title = "Discord",
         Icon = "info",
         Desc = "Info Section"
     }),
@@ -2451,12 +2451,12 @@ spawn(function()
 end);
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     Title = "Discord Server",
-    Desc = "Link Discord Vylera Hub!",
+    Desc = "Link Discord MONSTER X!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Link Discord",
         Callback = function()
-            setclipboard("not right now");
+            setclipboard("https://discord.gg/4HUK3QK9A");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Discord Link Copied",
@@ -2467,13 +2467,13 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     }}
 });
 DiscordServerParagraph1 = Tabs.InfoTab:Paragraph({
-    Title = "Social Vylera Hub",
-    Desc = "Link Social Vylera Hub!",
+    Title = "Monster X HUB",
+    Desc = "Monster X!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Social",
         Callback = function()
-            setclipboard("not right now");
+            setclipboard("https://discord.gg/4HUK3QK9A");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Social Link Copied",
